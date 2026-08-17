@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Amanda & Addan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link rel="icon" href="https://addanfelipe.github.io/amanda-addan/favicon.svg" type="image/svg+xml">
+
+    <!-- Preview ao compartilhar (WhatsApp, Facebook, etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Amanda & Addan" />
+    <meta property="og:description" content="10 de Outubro de 2026" />
+    <meta property="og:image" content="https://addanfelipe.github.io/amanda-addan/imagem-preview.jpg" />
+    <meta property="og:url" content="https://addanfelipe.github.io/amanda-addan/" />
+
+    <!-- Twitter (algumas plataformas também leem essas tags) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Amanda & Addan" />
+    <meta name="twitter:description" content="10 de Outubro de 2026" />
+    <meta name="twitter:image" content="https://addanfelipe.github.io/amanda-addan/imagem-preview.jpg" />
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #001b3d;
+      }
+
+      .canva-outer {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .canva-wrapper {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 140.9524%;
+        padding-bottom: 0;
+        box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+        margin: 0;
+        overflow: hidden;
+        border-radius: 8px;
+        will-change: transform;
+      }
+
+      .canva-wrapper iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      /* Mobile: puxa um pouco pra cima pra compensar a barra de navegação */
+      @media (max-width: 768px) {
+        .canva-wrapper {
+          margin-top: -60px;
+        }
+      }
+
+      /* Desktop: altura = 100vh, largura proporcional, centralizado */
+      @media (min-width: 769px) {
+        .canva-wrapper {
+          width: auto;
+          height: 100vh;
+          padding-top: 0;
+          margin-left: 50px;
+          margin-right: 50px;
+          aspect-ratio: 1 / 1.409524; /* mesma proporção do padding-top original */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="canva-outer">
+      <div class="canva-wrapper">
+        <iframe
+          loading="lazy"
+          src="https://www.canva.com/design/DAHSUsKa4vQ/x53ZQbL8O1Qfwnf3WYi13A/view?embed"
+        >
+        </iframe>
+      </div>
+    </div>
+  </body>
+</html>
